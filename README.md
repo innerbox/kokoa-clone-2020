@@ -1,3 +1,11 @@
-# Kokoa Clone 2020 Portfolio
+# Kokoa Clone 2020
 
-Kokoa Clone 2020 Portfolio
+## 6. CLONING TIME
+
+### 6.0 Introduction
+
+`.gitignore` 파일 생성 : `git`에 추가되지 않는 파일이나 폴더
+
+```
+.DS_Store
+```
