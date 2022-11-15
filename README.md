@@ -45,3 +45,26 @@
 -   [Font Awesome](https://fontawesome.com/) : 무료, 유료 선택가능 아이콘 사이트
 
 ### 6.4 Sign Up Screen part Two
+
+### 6.5 Status Bar CSS
+
+`status-bar` 시계 중앙에 놓는 방법
+
+```css
+.status-bar {
+    display: flex;
+    justify-content: center;
+}
+.status-bar__column {
+    width: 33%;
+}
+.status-bar__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+.status-bar__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+```
