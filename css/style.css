@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 @import url("reset.css");
+@import url("variables.css");
 @import url("status-bar.css");
+* {
+    font-family: "JetBrains Mono", monospace;
+}
 body {
     font-family: "JetBrains Mono", monospace;
 }
@@ -19,4 +23,23 @@ body {
 .welcome-header__text {
     width: 60%;
     opacity: 0.7;
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+#login-form input {
+    padding: 15px 0;
+    border: none;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out;
+}
+#login-form input::placeholder {
+    color: var(--yellow);
+}
+#login-form input:focus {
+    border-color: var(--yellow);
 }
