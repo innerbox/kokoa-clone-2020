@@ -38,3 +38,8 @@
     <span class="btn__text">Subscribe</span>
 </a>
 ```
+
+### 6.3 Font Awesome
+
+[Heroicons](https://heroicons.dev/) : svg 형식의 무료 아이콘 사이트
+[Font Awesome](https://fontawesome.com/) : 무료, 유료 선택가능 아이콘 사이트
