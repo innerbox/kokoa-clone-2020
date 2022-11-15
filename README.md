@@ -79,3 +79,29 @@ CSS 파일에서 다른 CSS 파일 불러오기
 ```
 
 ### 6.7 Log In Form part One
+
+CSS 변수 선언
+
+```css
+:root {
+    --main-color: #fea100;
+}
+```
+
+CSS 변수 사용
+
+```css
+input {
+    border-color: var(--main-color);
+}
+```
+
+### 6.8 Log In Form part Two
+
+`:not` 선택자
+
+```css
+#login-form input:not([type="submit"]) {
+    /* css */
+}
+```
