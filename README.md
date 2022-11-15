@@ -107,3 +107,12 @@ input {
 ```
 
 ### 6.9 Recap and Forms
+
+### 6.10 Navigation Bar part One
+
+구글도 ul 안의 li 의 링크들을 가져온다.  
+Visual Studio Code 단축키
+
+```
+nav>ul>li*4>a
+```
