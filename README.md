@@ -68,3 +68,12 @@
     align-items: center;
 }
 ```
+
+### 6.6 Sign Up Screen part Three
+
+[Reset CSS](https://meyerweb.com/eric/tools/css/reset/)  
+CSS 파일에서 다른 CSS 파일 불러오기
+
+```css
+@import url("filename.css");
+```
