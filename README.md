@@ -150,3 +150,7 @@ div {
     position: absolute;
 }
 ```
+
+### 6.14 Screen Header
+
+재사용이 가능하게 만들어보자.
