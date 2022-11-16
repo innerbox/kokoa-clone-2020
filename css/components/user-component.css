@@ -1,0 +1,20 @@
+.user-component,
+.user-component__column {
+    display: flex;
+    align-items: center;
+}
+.user-component__avator {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.user-component__title {
+    font-size: 22px;
+    font-weight: bold;
+}
+.user-component__subtitle {
+    margin-top: 10px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5);
+}
