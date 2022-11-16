@@ -119,5 +119,21 @@ nav>ul>li*4>a
 
 ### 6.11 Navigation Bar part Two
 
-`position: fixed;` 을 선언하면 `width` 가 초기화 되기 때문에 다시 선언해주어야 한다.  
-`box-sizing: border-box`
+`position: fixed;` 을 선언하면 `width` 가 초기화 되기 때문에 다시 선언해주어야 한다.
+
+### 6.12 Border Box
+
+```css
+/* 실제 박스 크기 : 250px */
+div {
+    width: 200px;
+    padding-left: 50px;
+}
+
+/* 실제 박스 크기 : 200px */
+div {
+    width: 200px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+```
