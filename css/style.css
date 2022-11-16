@@ -9,6 +9,7 @@
 
 /* Screens */
 @import url("screens/login.css");
+@import url("screens/friends.css");
 * {
     font-family: "JetBrains Mono", monospace;
 }

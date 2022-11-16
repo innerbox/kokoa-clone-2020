@@ -154,3 +154,5 @@ div {
 ### 6.14 Screen Header
 
 재사용이 가능하게 만들어보자.
+
+### 6.15 Friends Screen part One
