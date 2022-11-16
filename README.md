@@ -137,3 +137,16 @@ div {
     box-sizing: border-box;
 }
 ```
+
+### 6.13 Navigation Bar part Three
+
+`position: absolute`를 사용하기 위해서는 부모 엘리먼트에 `position: relative`가 선언되어 있어야 한다.
+
+```css
+.parent {
+    position: relative;
+}
+.child {
+    position: absolute;
+}
+```
