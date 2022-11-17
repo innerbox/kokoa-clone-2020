@@ -168,3 +168,17 @@ div {
 ### 6.20 Chats Screen part Two
 
 ### 6.21 Find Screen Part One
+
+### 6.22 Find Screen Part Two
+
+같은 코드가 반복된다면 변수로 만들어 놓는것이 좋다.  
+똑같은 코드를 여러번 사용하지 않도록 하는것이 좋다.
+
+```css
+:root {
+    --main-border: 1px solid rgba(0, 0, 0, 0.2);
+}
+div {
+    border-bottom: var(--main-border);
+}
+```
