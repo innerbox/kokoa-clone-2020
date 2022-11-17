@@ -6,7 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Friedns - Kokoa Clone</title>
         <link rel="stylesheet" href="css/style.css" />
-        <script src="https://kit.fontawesome.com/9ad7e331f2.js" crossorigin="anonymous"></script>
+        <script
+            src="https://kit.fontawesome.com/9ad7e331f2.js"
+            crossorigin="anonymous"
+        ></script>
     </head>
     <body>
         <div class="status-bar">
@@ -36,29 +39,67 @@
             Friend's Names Display
             <i class="fa-solid fa-chevron-right"></i>
         </a>
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="http://www.sputnik.kr/article_img/202012/article_1608596959.jpg" alt="avatar" class="user-component__avator" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Nezuko</h4>
-                    <h6 class="user-component__subtitle">Nezuko Kamado</h6>
+        <main class="friends-screen">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img
+                        src="http://www.sputnik.kr/article_img/202012/article_1608596959.jpg"
+                        alt="avatar"
+                        class="user-component__avator user-component__avator--xl"
+                    />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Nezuko</h4>
+                        <!-- <h6 class="user-component__subtitle">Nezuko Kamado</h6> -->
+                    </div>
+                </div>
+                <div class="user-component__column"></div>
+            </div>
+            <div class="friends-screen__channel">
+                <div class="friends-screen__channel-header">
+                    <span>Channel</span>
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img
+                            src="http://www.sputnik.kr/article_img/202012/article_1608596959.jpg"
+                            alt="avatar"
+                            class="user-component__avator user-component__avator--sm"
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title">Channel</h4>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <span>2</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
                 </div>
             </div>
-            <div class="user-component__column"></div>
-        </div>
+        </main>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__btn">
-                    <a href="friends.html" class="nav__link"><i class="fa-solid fa-user fa-2x"></i></a>
+                    <a href="friends.html" class="nav__link"
+                        ><i class="fa-solid fa-user fa-2x"></i
+                    ></a>
                 </li>
                 <li class="nav__btn">
-                    <a href="#" class="nav__link"><span class="nav__notification">1</span><i class="fa-regular fa-comment fa-2x"></i></a>
+                    <a href="#" class="nav__link"
+                        ><span class="nav__notification">1</span
+                        ><i class="fa-regular fa-comment fa-2x"></i
+                    ></a>
                 </li>
                 <li class="nav__btn">
-                    <a href="#" class="nav__link"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+                    <a href="#" class="nav__link"
+                        ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+                    ></a>
                 </li>
                 <li class="nav__btn">
-                    <a href="#" class="nav__link"><span class="nav__more"></span><i class="fa-solid fa-ellipsis fa-2x"></i></a>
+                    <a href="#" class="nav__link"
+                        ><span class="nav__more"></span
+                        ><i class="fa-solid fa-ellipsis fa-2x"></i
+                    ></a>
                 </li>
             </ul>
         </nav>

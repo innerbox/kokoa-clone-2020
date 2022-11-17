@@ -18,3 +18,11 @@
     font-size: 17px;
     color: rgba(0, 0, 0, 0.5);
 }
+.user-component__avator--xl {
+    width: 80px;
+    height: 80px;
+}
+.user-component__avator--sm {
+    width: 60px;
+    height: 60px;
+}

@@ -158,3 +158,5 @@ div {
 ### 6.15 Friends Screen part One
 
 ### 6.16 User Component part One
+
+### 6.17 User Component part Two
