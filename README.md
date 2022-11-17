@@ -164,3 +164,5 @@ div {
 ### 6.18 Finishing Friends Screen
 
 ### 6.19 Chats Screen part One
+
+### 6.20 Chats Screen part Two
