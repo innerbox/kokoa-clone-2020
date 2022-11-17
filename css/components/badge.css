@@ -8,3 +8,13 @@
     align-items: center;
     color: white;
 }
+.exclamation-mark {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
