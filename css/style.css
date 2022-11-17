@@ -17,3 +17,6 @@
 body {
     font-family: "JetBrains Mono", monospace;
 }
+.main-screen {
+    padding: 0 var(--horizontal-space);
+}
