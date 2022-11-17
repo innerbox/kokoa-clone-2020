@@ -35,8 +35,10 @@
     color: var(--font-color-sub);
 }
 .open-post {
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .open-post__title {
     font-weight: bold;
@@ -67,4 +69,27 @@
 }
 .open-post__member-status {
     color: #ffb0e0;
+}
+.open-post__photo {
+    position: relative;
+}
+.open-post__photo img {
+    width: 120px;
+    border-radius: 10px;
+}
+.open-post__heart-count {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+.open-post__heart-count span {
+    margin-left: 3px;
 }

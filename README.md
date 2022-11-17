@@ -192,3 +192,5 @@ CSS에서 영문소문자를 대문자로 바꾸는 방법
     text-transform: uppercase; /* 대문자로 바꿔준다. */
 }
 ```
+
+### 6.24 Find Screen Part Four
