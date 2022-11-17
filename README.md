@@ -182,3 +182,13 @@ div {
     border-bottom: var(--main-border);
 }
 ```
+
+### 6.23 Find Screen Part Three
+
+CSS에서 영문소문자를 대문자로 바꾸는 방법
+
+```css
+.open-post__hashtags {
+    text-transform: uppercase; /* 대문자로 바꿔준다. */
+}
+```
