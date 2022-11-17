@@ -1,3 +1,6 @@
+.user-component {
+    justify-content: space-between;
+}
 .user-component,
 .user-component__column {
     display: flex;
@@ -25,4 +28,10 @@
 .user-component__avator--sm {
     width: 60px;
     height: 60px;
+}
+.user-component__title--not-bold {
+    font-weight: normal;
+}
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.5);
 }

@@ -160,3 +160,5 @@ div {
 ### 6.16 User Component part One
 
 ### 6.17 User Component part Two
+
+### 6.18 Finishing Friends Screen
