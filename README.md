@@ -220,3 +220,13 @@ CSS에서 영문소문자를 대문자로 바꾸는 방법
 ### 6.30 Chat Screen part Three
 
 ### 6.31 Chat Screen part Four
+
+### 6.32 Chat Screen part Five
+
+`Modifier` 적용
+
+```html
+<div class="message-row message-row--own">
+    <!-- Code -->
+</div>
+```
