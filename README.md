@@ -230,3 +230,5 @@ CSS에서 영문소문자를 대문자로 바꾸는 방법
     <!-- Code -->
 </div>
 ```
+
+### 6.33 Write Message Input
