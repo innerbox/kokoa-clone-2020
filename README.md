@@ -254,3 +254,5 @@ CSS에서 영문소문자를 대문자로 바꾸는 방법
     animation: hideSplashScreen 1s ease-in-out forwards;
 }
 ```
+
+### 6.36 Navigation Animation
