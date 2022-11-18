@@ -268,3 +268,13 @@ CSS에서 영문소문자를 대문자로 바꾸는 방법
     animation: heartBeat 1s ease-in-out infinite;
 }
 ```
+
+### 6.38 Animating Chats Screen
+
+`:focus-within` => 엘리먼트 내부에 focus 된게 있으면 작동한다.
+
+```css
+.reply:focus-within .reply__column:first-child {
+    opacity: 0;
+}
+```
