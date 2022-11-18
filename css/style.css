@@ -9,12 +9,15 @@
 @import url("components/user-component.css");
 @import url("components/badge.css");
 @import url("components/icon-row.css");
+@import url("components/alt-screen-header.css");
 
 /* Screens */
 @import url("screens/login.css");
 @import url("screens/friends.css");
 @import url("screens/find.css");
 @import url("screens/more.css");
+@import url("screens/settings.css");
+@import url("screens/chat.css");
 * {
     font-family: "JetBrains Mono", monospace;
 }

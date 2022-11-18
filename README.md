@@ -198,3 +198,19 @@ CSS에서 영문소문자를 대문자로 바꾸는 방법
 ### 6.25 More Screen part One
 
 ### 6.26 More Screen part Two
+
+### 6.27 Settings Screen part One
+
+컬럼 3개가 있을경우 정중앙 맞추기
+
+```css
+.alt-header__column:first-child {
+    margin-right: auto;
+}
+/* 중앙은 아무것도 작업안함 */
+.alt-header__column:last-child {
+    margin-left: auto;
+}
+```
+
+### 6.28 Settings and Chat Screen part One
