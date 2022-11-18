@@ -234,3 +234,23 @@ CSS에서 영문소문자를 대문자로 바꾸는 방법
 ### 6.33 Write Message Input
 
 ### 6.34 Splash Screen part One
+
+### 6.35 Splash Screen part Two
+
+부모에 `position: relative`가 없으면 `body`를 기준으로 삼는다.
+
+```css
+#splash-screen {
+    /* 부모에 position: relative가 없으면 body를 기준으로 삼는다. */
+    position: absolute;
+}
+```
+
+`forwards` => 애니메이션이 끝난상태를 유지한다.
+
+```css
+#splash-screen {
+    /* forwards => 애니메이션이 끝난상태를 유지한다. */
+    animation: hideSplashScreen 1s ease-in-out forwards;
+}
+```
