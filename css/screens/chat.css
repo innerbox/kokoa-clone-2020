@@ -84,10 +84,10 @@
     box-sizing: border-box;
 }
 .reply .reply__column:first-child {
-    width: 10%;
+    width: 8%;
 }
 .reply .reply__column:last-child {
-    width: 90%;
+    width: 92%;
     position: relative;
 }
 .reply input {
@@ -102,12 +102,12 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
     position: absolute;
-    right: -3px;
-    top: 2px;
+    right: -18px;
+    top: 5px;
 }
 .reply__column:last-child > i {
-    right: 40px;
-    top: 16px;
+    right: 25px;
+    top: 20px;
 }
 .reply__column button {
     background-color: var(--yellow);
