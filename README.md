@@ -214,3 +214,5 @@ CSS에서 영문소문자를 대문자로 바꾸는 방법
 ```
 
 ### 6.28 Settings and Chat Screen part One
+
+### 6.29 Chat Screen part Two

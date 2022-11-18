@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto&display=swap");
 @import url("reset.css");
 @import url("variables.css");
 
@@ -19,10 +19,10 @@
 @import url("screens/settings.css");
 @import url("screens/chat.css");
 * {
-    font-family: "JetBrains Mono", monospace;
+    font-family: "JetBrains Mono", "Roboto";
 }
 body {
-    font-family: "JetBrains Mono", monospace;
+    font-family: "JetBrains Mono", "Roboto";
 }
 .main-screen {
     padding: 0 var(--horizontal-space);
