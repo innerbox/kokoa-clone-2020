@@ -256,3 +256,15 @@ CSS에서 영문소문자를 대문자로 바꾸는 방법
 ```
 
 ### 6.36 Navigation Animation
+
+### 6.37 More Animations
+
+`will-change` => 브라우저에게 어떠한 것이 변할지 미리 알려주는 것  
+그래픽카드를 이용해서 애니메이션을 가속화한다.
+
+```css
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeat 1s ease-in-out infinite;
+}
+```
