@@ -303,3 +303,13 @@ Current branch 클릭 => New branch 클릭 => 이름적고 => Create branch 클�
 
 branch merge하기  
 master brach를 현재 branch로 놓고 상단메뉴 `branch` => `merge into current branch`
+
+### 7.1 Publishing on Github Pages
+
+github에서는 static website 호스팅을 무료로 제공한다.
+
+1. 저장소가 `public`으로 되어 있는지 확인한다.
+2. `gh-pages` branch를 만든다.
+3. github 저장소에 push 한다.
+4. https://사용자이름.github.io/저장소이름/
+    1. 만약에 주소를 못 찾겠다면 github의 해당 저장소에 들어가서 `Environments` - `github-pages` - `View deployment` 로 가면 알수있다.
