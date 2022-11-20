@@ -313,3 +313,10 @@ github에서는 static website 호스팅을 무료로 제공한다.
 3. github 저장소에 push 한다.
 4. https://사용자이름.github.io/저장소이름/
     1. 만약에 주소를 못 찾겠다면 github의 해당 저장소에 들어가서 `Environments` - `github-pages` - `View deployment` 로 가면 알수있다.
+
+### 7.2 Updating Github Pages
+
+코드의 업데이트는 master에서 하되 그것뿐만이 아니라 gh-pages에도 업데이트를 해주어야 한다.
+
+1. Current branch를 master에 두고 코드를 수정하고 commit - push
+2. Current branch를 gh-pages에 두고 메뉴에서 Branch - Update from master 하고 push
