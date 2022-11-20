@@ -282,3 +282,24 @@ CSS에서 영문소문자를 대문자로 바꾸는 방법
 ### 6.39 Recap
 
 ### 6.40 No Mobile Media Query
+
+### 7. PUBLISHING OUR WEBSITE
+
+### 7.0 Branches on Git
+
+---
+
+Git에서 branch는 코드들의 평행세계  
+master branch에는 stable한 (잘 작동하는 것으로 어느정도 검증이 된) code를 올린다.  
+그리고 실험하고 싶거나 새로운 기능을 추가할 때는 새로운 branch를 만든다.  
+merge는 branch끼리 합치는 것을 말한다.
+
+---
+
+Github Desktop에서 branch 만들기  
+Current branch 클릭 => New branch 클릭 => 이름적고 => Create branch 클릭
+
+---
+
+branch merge하기  
+master brach를 현재 branch로 놓고 상단메뉴 `branch` => `merge into current branch`
